@@ -196,7 +196,7 @@ describe("qual material do agente pode provar uma oferta", () => {
 describe("leitura do servidor MCP externo como evidência (#2147)", () => {
   const agenda = {
     texto: "1 agendamento encontrado",
-    dados: { resposta: "Exame periódico em 30/11/2026 às 17:50, empresa Phillips Sanchez Brand." },
+    dados: { resposta: "Exame periódico em 30/11/2026 às 17:50, empresa Metalúrgica Exemplo." },
   };
 
   it("guarda o resultado bem-sucedido, com o nome da ferramenta na referência", () => {
